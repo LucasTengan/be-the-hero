@@ -17,7 +17,7 @@ export default function Profile() {
     const history = useHistory()
 
     useEffect(() => {
-        api.get('profile', {
+        api.get('/profile', {
             headers: {
                 Authorization: ongId
             }
