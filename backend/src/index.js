@@ -8,6 +8,7 @@ app.use(cors())
 app.use(express.json()) //Transforma o json em algo entendível pelo JS
 app.use(routes)
 
+app.listen(3333)
 //Rota é o conjunto completo e recurso é o que vem depois da /
 
 /*
@@ -29,6 +30,3 @@ BANCO DE DADOS:
 •Driver: SELECT * FROM users
 •Query Builder: table('users).select('*').where()
 */
-
-
-app.listen(3333)
